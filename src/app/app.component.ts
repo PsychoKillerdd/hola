@@ -7,11 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
  public title:string = 'Hola mundo!';
- public counter:number = 10;
- increseby():void{
-  this.counter +=1;
- }
- decreseby():void{
-  this.counter -=1;
- }
+
 }
+
