@@ -19,6 +19,10 @@ export class HeroComponent {
  }
  get changeAge():number{
   return this.age = 20;
-
+ }
+ resetForm():void{
+  this.name = "iron man";
+  this.age = 45;
  }
 }
+
